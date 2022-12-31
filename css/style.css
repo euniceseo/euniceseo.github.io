@@ -48,22 +48,66 @@ section{
 
 #projects{
     background-color: #29505b;
+    height: 1000px;
 }
 
 h1{
     position: relative;
     left: 30%;
-    top: 30%;
+    top: 25%;
     color: #fff;
 }
 
 h3{
     position: relative;
-    top: 30%;
+    top: 25%;
     padding: 50px 250px;
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 24px;
+    font-family: sans-serif;
+}
+
+
+img{
+    position: relative;
+    top: 20%;
+    left: 30%;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+img.marble{
+    position: relative;
+    top: 38%;
+    left: 20%;
+    width: 120px;
+    height: 150px;
+    border-radius: 0px;
+}
+
+h3.marble{
+    top: 17%;
+    padding: 50px 400px;
+}
+
+p{
+    position: relative;
+    top: 20%;
+    padding: 50px 250px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 24px;
+    font-family: sans-serif;
+}
+
+p.marble{
+    top: 10%;
+    padding: 50px 400px;
+    font-size: 14px;
     font-weight: 550;
     line-height: 20px;
-    font-family: sans-serif;
 }
