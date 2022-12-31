@@ -81,7 +81,7 @@ img{
 
 img.marble{
     position: relative;
-    top: 38%;
+    top: 30%;
     left: 20%;
     width: 120px;
     height: 150px;
@@ -89,14 +89,16 @@ img.marble{
 }
 
 h3.marble{
-    top: 17%;
+    top: 7%;
+    left: 0%;
     padding: 50px 400px;
 }
 
 p{
     position: relative;
     top: 20%;
-    padding: 50px 250px;
+    left: 5%;
+    padding: 50px 400px;
     color: #fff;
     font-size: 18px;
     font-weight: 550;
@@ -105,9 +107,13 @@ p{
 }
 
 p.marble{
-    top: 10%;
-    padding: 50px 400px;
+    top: 0%;
+    left: 0%;
     font-size: 14px;
     font-weight: 550;
     line-height: 20px;
+}
+
+h1.projects{
+    top: 20%;
 }
