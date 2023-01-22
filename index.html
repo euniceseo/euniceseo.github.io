@@ -33,19 +33,11 @@
 
     <section id="about">
 
-        <header>
-            <ul id="nav">
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#projects">projects</a></li>
-            </ul>
-        </header>
-
-        <h1>
-            about
+        <h1 class="about">
+            about:
         </h1>
 
-        <h3>
+        <h3 class="about">
             My interests lie in genetics research, 
             medical software, and biotechnology, and I hope to pursue a career in building 
             software to facilitate the innovation of medicine, healthcare, and biological research.
@@ -58,32 +50,104 @@
 
     <section id="projects">
 
-        <header>
-            <ul id="nav">
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#projects">projects</a></li>
-            </ul>
-        </header>
         
         <h1 class="projects">
             projects
         </h1>
 
-        <img class="marble" src="images/marble.png" alt="Marble Solitaire Image">
+        <div class="marble">
+            <img class="marble" src="images/marble.png" alt="Marble Solitaire Image">
 
-        <h3 class="marble">
-            Marble Solitaire
+            <h3 class="marble">
+                Marble Solitaire
+            </h3>
+
+            <p class="marble">
+                This marble solitaire game was made for Northeastern's Object Oriented Design course. Java and JUnit testing were utilized.
+                It features three possible game modes, and when a player
+                starts the game they are presented with an initial board in which they can enter
+                to and from coordinates to make moves and play the game from the command line. Invalid moves
+                and scores are notified to the user. The game is over
+                when there are no more possible moves left, and the objective of the game is to
+                clear as many marbles as possible.
+            </p>
+        </div>
+
+        <div class="imageprocessor">
+            <p class="imageprocessor">
+                This image processing software was made for Northeastern's Object Oriented Design course. Java, JUnit testing, and Java Swing were utilized.
+                The software features 7+ image transformations users can perform on an image alongside loading and saving
+                an image from their desktop. After each transformation, the transformed image alongside a histogram of
+                the red, green, blue, and average values are shown.
+            </p>
+
+            <h3 class="imageprocessor">
+                Image Processor
+            </h3>
+
+            <img class="imageprocessor" src="images/imageprocessor.png" alt="Image Processor Image">
+        </div>
+
+        <div class="hospital">
+
+            <img class="hospital" src="images/hospital.png" alt="Hospital Database Management Software">
+
+            <h3 class="hospital">
+                Hospital Database Management Software
+            </h3>
+
+            <p class="hospital">
+                This hospital database management software was made for Northeastern's Database Design course. 
+                SQL was used to create and manipulate the databases, and routes were written in Python.
+                Alongside those languages, the software was made with the use of Flask, Docker, AppSmith,
+                and ngrok.
+                The software features 4 pages with actions to facilitate hospital administration for 
+                physicians, patients, and administrators. Some of the possible actions include viewing patient records,
+                updating availability, and viewing patient and insurance information.
+            </p>
+
+        </div>
+
+        <div class="messageboard">   
+
+            <h3 class="messageboard">
+                Message Board
+            </h3>
+
+            <p class="messageboard">
+                This message board I made with the use of Flask in python and the pythonanywhere platform:
+                the framework was written with HTML, CSS, and JavaScript, while the route was written in Python.
+                It features a form where you can post discussion comments and messages, and the form restricts
+                you from posting an empty comment, a comment longer than 128 characters, or a comment that
+                contains an inappropriate word.
+            </p>
+
+            <img class="messageboard" src="images/message.png" alt="Image Processor Image">
+        </div>
+
+        <div class="floodit">   
+
+            <img class="floodit" src="images/floodit.png" alt="Image Processor Image">
+
+            <h3 class="floodit">
+                FloodIt Game
+            </h3>
+
+            <p class="floodit">
+                This flood it game was made for Northeastern's Fundamentals of Computer Science 2 course. Java, Java testing, and Java Random were utilized.
+                The aim of the game is to get the entire board to be in one color in the given amount of moves possible.
+                When a color is clicked, the board features a waterfall effect to fill the baord with the clicked color
+                if all the surrounding colors are the same. The game generates a random board everytime, keeps score,
+                and has a timer to keep track of game time.
+            </p>
+
+        </div>
+
+        <h3 class="des">
+            Check out more python scripts, coding challenges, and code to some of the above projects <a href="https://github.com/euniceseo" target="_blank">here!</a>
+            Code for school projects are 
+            available upon request.
         </h3>
-
-        <p class="marble">
-            This marble solitaire game was made in Java for Northeastern's CS 3500 course.
-            It features three possible game modes you can choose from, and when a player
-            starts the game they are presented with an initial board in which they can enter
-            to and from coordinates to make moves and play the game. The game is over
-            when there are no more possible moves left, and the objective of the game is to
-            clear as many marbles as possible.
-        </p>
 
     </section>
 </body>
