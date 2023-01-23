@@ -81,7 +81,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 h3.marble{
@@ -105,7 +105,7 @@ img.marble{
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 h3.imageprocessor{
@@ -129,7 +129,7 @@ img.imageprocessor{
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 h3.hospital{
@@ -153,7 +153,7 @@ img.hospital{
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 h3.floodit{
@@ -177,7 +177,7 @@ img.floodit{
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 h3.messageboard{
@@ -194,6 +194,30 @@ p.messageboard{
 img.messageboard{
     width: 300px;
     height: 152px;
+    padding: 25px 25px;
+}
+
+.website{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+h3.website{
+    position: relative;
+    padding: 10px;
+    margin: 2px;
+}
+
+p.website{
+    padding: 20px;
+    line-height: 20px;
+}
+
+img.website{
+    width: 300px;
+    height: 160px;
     padding: 25px 25px;
 }
 
