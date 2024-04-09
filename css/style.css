@@ -221,6 +221,30 @@ img.website{
     padding: 25px 25px;
 }
 
+.figure-gen{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+h3.figure-gen{
+    position: relative;
+    padding: 10px;
+    margin: 2px;
+}
+
+p.figure-gen{
+    padding: 20px;
+    line-height: 20px;
+}
+
+img.figure-gen{
+    width: 300px;
+    height: 152px;
+    padding: 25px 25px;
+}
+
 h3.des{
     margin-top: 30px;
 }
